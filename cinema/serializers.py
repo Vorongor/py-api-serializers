@@ -26,7 +26,6 @@ class ActorSerializer(serializers.ModelSerializer):
         return f"{obj.first_name} {obj.last_name}"
 
 
-
 class CinemaHallSerializer(serializers.ModelSerializer):
     class Meta:
         model = CinemaHall
